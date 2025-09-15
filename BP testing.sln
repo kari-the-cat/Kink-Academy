@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP testing", "BP testing\BP testing.csproj", "{BD2137D1-C8FE-44A2-865B-7B7D47B1F302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buttplug", "..\buttplug-csharp-master\Buttplug\Buttplug.csproj", "{5CD5BA4A-A33A-E561-EB9D-96684695614B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2137D1-C8FE-44A2-865B-7B7D47B1F302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2137D1-C8FE-44A2-865B-7B7D47B1F302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2137D1-C8FE-44A2-865B-7B7D47B1F302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2137D1-C8FE-44A2-865B-7B7D47B1F302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD5BA4A-A33A-E561-EB9D-96684695614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD5BA4A-A33A-E561-EB9D-96684695614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD5BA4A-A33A-E561-EB9D-96684695614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD5BA4A-A33A-E561-EB9D-96684695614B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1C6294-9096-4B2D-9E85-F3ACBC5FA41E}
+	EndGlobalSection
+EndGlobal

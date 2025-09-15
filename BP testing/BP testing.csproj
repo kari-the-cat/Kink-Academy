@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BP_testing</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.ConsoleHelper" Version="1.2.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.35.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\buttplug-csharp-master\Buttplug\Buttplug.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Buttplug.ProjectFiles">
+      <HintPath>..\..\buttplug-csharp-master\Buttplug.ProjectFiles\bin\Debug\Buttplug.ProjectFiles.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
